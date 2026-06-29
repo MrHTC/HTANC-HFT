@@ -1,9 +1,0 @@
-flow: aidlc
-version: 0.1.65
-installed_at: '2026-05-01T21:49:58.897Z'
-tools:
-  - claude
-  - cursor
-  - copilot
-  - antigravity
-  - opencode

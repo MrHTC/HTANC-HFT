@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "trading-execution": {
+      "type": "http",
+      "url": "http://localhost:8000/mcp/trade",
+      "description": "Place and manage trades (paper or live)",
+      "auth": {
+        "type": "api-key",
+        "header": "X-API-Key"
+      }
+    },
+    "market-data": {
+      "type": "http",
+      "url": "http://localhost:8000/mcp/market",
+      "description": "Real-time and historical market data for stocks, crypto, forex",
+      "auth": {
+        "type": "api-key",
+        "header": "X-API-Key"
+      }
+    },
+    "portfolio": {
+      "type": "http",
+      "url": "http://localhost:8000/mcp/portfolio",
+      "description": "Portfolio positions, P&L, balances, and risk metrics"
+    },
+    "signals": {
+      "type": "http",
+      "url": "http://localhost:8000/mcp/signals",
+      "description": "AI-generated trading signals with confidence scores"
+    },
+    "backtest": {
+      "type": "http",
+      "url": "http://localhost:8000/mcp/backtest",
+      "description": "Run and retrieve backtest results"
+    }
+  }
+}
