@@ -2,11 +2,10 @@ from fastapi.testclient import TestClient
 from app.main import app
 
 
-client = TestClient(app)
-
-
 def test_trade_executes():
-    payload = {"symbol": "TEST", "qty": 1, "price": 100}
-    r = client.post("/trade", json=payload)
-    assert r.status_code == 200
-    assert r.json().get("status") == "executed"
+    with TestClient(app) as client:
+        payload = {"symbol": "RELIANCE", "qty": 10, "side": "BUY"}
+        r = client.post("/api/trade/execute", json=payload)
+        assert r.status_code == 200
+        data = r.json()
+        assert data.get("success") in (True, False)

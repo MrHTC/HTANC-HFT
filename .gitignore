@@ -38,3 +38,6 @@ docker-data/
 
 # uv
 .python-version
+
+# Temp smoke test
+tests/smoke_test.py
