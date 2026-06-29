@@ -3,7 +3,7 @@
 > **Paper‑first, AI‑powered, production‑ready.**  
 > Clone, configure, and trade — in paper or live — within minutes.
 
-[![CI](https://github.com/HTANC-AI/htanc-ai-hft/actions/workflows/ci.yml/badge.svg)](https://github.com/HTANC-AI/htanc-ai-hft/actions/workflows/ci.yml)
+[![CI](https://github.com/MrHTC/HTANC-HFT/actions/workflows/ci.yml/badge.svg)](https://github.com/MrHTC/HTANC-HFT/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
